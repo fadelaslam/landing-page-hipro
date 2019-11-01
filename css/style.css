@@ -1,0 +1,121 @@
+html {
+    position: relative;
+
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+
+/* Slider */
+.carousel-item {
+height: 727px;
+}
+.carousel-item img {
+    margin-top: -120px;
+}
+
+.nav-link { 
+    margin-right: 1em !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+   
+} 
+
+.nav-link:hover { 
+    background: green; color:#fff; 
+} 
+
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+
+.navbar-toggler {  
+    background:#fff !important;
+}
+
+.manfaat {
+    margin-top: 40px;
+}
+
+.manfaat hr {
+    width: 500px;
+    border-top: 3px solid #000000;
+}
+
+
+
+.hipro {
+    /* background-image: image(); */
+    background-color: aquamarine;
+    margin-top: 50px;
+}
+
+.hipro img {
+    margin-top: 100px;
+    
+}
+
+.testimonial {
+    margin-top: 50px;
+    min-height: 500px;
+}
+
+.testimonial hr {
+    width: 500px;
+    border-top: 3px solid #000000;
+}
+
+section {
+    min-height: 420px;
+}
+
+footer {
+    position:absolute;
+    width: 100%;
+    height:100px;
+    bottom:0;
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+}
+
+#line  {
+    position: absolute;
+    width: 1440px;
+    height: 16px;
+    left: 0px;
+    top: 2655px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
+  }
+}
