@@ -1,11 +1,75 @@
+html {
+    position: relative;
+    
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 992px;){
+
+}
+@media (max-width: 768px;){
+    
+}
+@media (max-width: 576px;){
+    
+}
+
+/* Slider */
+.carousel-item {
+height: 727px;
+}
+.carousel-item img {
+    margin-top: -120px;
+}
+
+.carousel-caption {
+    position: absolute;
+    background-color:rgba(126,126,126,0.6);
+    width: 100%;
+    height: 102px;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding-bottom: -120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
 
 
 
+/* navbar */
+.nav-link { 
+    margin-right: 1em !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+} 
+
+.nav-link:hover { 
+    background: green; color:#fff; 
+} 
+
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
 
 
+.manfaat {
+    margin-top: 40px;
+}
 
-
-
+.manfaat hr {
+    width: 500px;
+    border-top: 3px solid #000000;
+}
 
 
 
@@ -40,6 +104,12 @@ footer {
     height:100px;
     bottom:0;
     background-color: black;
-    color: cornsilk;
+    color: white;
     text-align: center;
+}
+
+.social a {
+    font-size: 2em;
+    padding: 2rem;
+    color: white;
 }
