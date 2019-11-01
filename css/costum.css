@@ -1,0 +1,45 @@
+/* Navbar */
+.navbar{
+    box-shadow: 0px 4px 4px grey;
+}
+
+.navbar-nav .nav-link{
+    text-transform: capitalize;
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #63CCC5 !important;
+}
+
+.navbar-brand {
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: -10px;
+    margin-bottom: -8px;
+}
+
+
+/* Responsive Dekstop */
+@media (min-width: 992px) {
+    .navbar-nav .nav-link{
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #63CCC5;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        color: #63CCC5 !important;
+    }
+
+    .navbar-brand, .nav-link {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    
+
+}
