@@ -114,3 +114,6 @@ footer {
     padding: 2rem;
     color: white;
 }
+.social a:hover{
+    color: #63CCC5; ;
+}
