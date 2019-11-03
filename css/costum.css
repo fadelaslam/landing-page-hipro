@@ -156,6 +156,84 @@ footer {
     position:absolute;
    }
 
+/* Biaya */
+.biaya-panel {
+    background-color: #63CCC5;
+    width: 276px !important;
+    height: 462px;
+    margin-top: 90px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.biaya-panel .card-title{
+    background-color: #FEFCFC;
+    margin-top: 10px;
+    height: 114px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    border-radius: 1rem;
+}
+
+.biaya-panel .card-body hr {
+    border: 1px solid #ffffff;
+}
+
+.biaya-panel .card-body .enterprice {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.biaya-panel .card-body .try-it {
+    margin-left: 35px;
+    margin-top: 30px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.fitur-panel {
+    background-color: #efefef;
+    height: 340px;
+    margin-top: 190px;
+    margin-left: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+
+.fitur-panel:last-child{
+    margin-bottom: 60px;
+}
+
+.fitur-panel .card-title{
+    background-color: #ffffff;
+    margin-top: -50px;
+    margin-left: 120px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-width: 1px; border-style: solid; border-color: #DDDDDD;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title img {
+    max-width: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+}
+
 
 /* Responsive Dekstop */
 @media (min-width: 992px) {
@@ -204,7 +282,11 @@ footer {
 
   /* Footer */
     footer {
+<<<<<<< HEAD
         /* position:absolute; */
+=======
+        position: fixed !important;
+>>>>>>> db542153f41b9e55b35bd22253b875f722490a27
         width: 100%;
         height: auto;
         bottom:0;
@@ -220,7 +302,10 @@ footer {
         footer { position: static; }
     }
 
+<<<<<<< HEAD
     
+=======
+>>>>>>> db542153f41b9e55b35bd22253b875f722490a27
     .social a {
         font-size: 2em;
         padding: 2rem;
@@ -270,4 +355,43 @@ footer {
 
     }
 
+    /* Biaya */
+    .biaya-panel {
+        background-color: #63CCC5;
+        height: 500px;
+        margin-top: 110px;
+        margin-left: 200px;
+    }
+
+    .biaya-panel .card-title{
+        background-color: #FEFCFC;
+        margin-top: 10px;
+        height: 114px;
+        padding-left: 40px;
+        padding-top: 15px;
+        border-radius: 1rem;
+    }
+
+    .fitur-panel:hover {
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+        background-color: #63CCC5;
+        color: white;
+        /* height: 400px; */
+        margin-top: 180px !important;
+        margin-bottom: 10px;
+    }
+
+    .fitur-panel .card-title{
+        background-color: #ffffff;
+        margin-top: -50px;
+        margin-left: 70px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border-width: 1px; border-style: solid; border-color: #DDDDDD;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+    }
+
 }
+
+
